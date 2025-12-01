@@ -11,3 +11,19 @@
 * git diff - просмотр различий между текущим состоянием и указанным коммитом.
 * git reset - откат к указанному коммиту.
 
+---
+### Пример кода на Python
+
+```python
+git_commands = [
+    "git init",
+    "git add",
+    "git commit",
+    "git push",
+    "git status",
+]
+
+print("Изученные команды:")
+for cmd in git_commands:
+    print(f"- {cmd}")
+
